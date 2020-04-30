@@ -1,10 +1,9 @@
 class Dog 
-  
-def initialize(dog_name)
-  @name= dog_name
-end
-
-end
+  attr_accessor :name 
+  def initialize(dog_name)
+    @name=dog_name
+  end
+end 
 
 
 # describe '#initialize' do
